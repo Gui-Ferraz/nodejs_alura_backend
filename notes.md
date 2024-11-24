@@ -1,13 +1,14 @@
+This document contains the most important notes I recorded during the project development.
+
 # Node.js
 
-Run command: `node app.js`
+Execute Node.js programs with: `node example.js`.
 
-Note: Power Shell limits executions for some commands for security. Run `npm` commands in other terminal (like cmd).
+Note: Power Shell restricts the execution of certains commands for security reasons. Consider running the `npm` command in a different terminal, such as Command Prompt (cmd).
 
-## Initialize Node.js project:
-`npm init es6 -y`
+Run `npm init es6 -y` to initialize a Node.js project.
 
-## Libraries and tools prom NPM (Node Package Manager)
+## Libraries and tools from NPM (Node Package Manager)
 
 Use `npm install` to install all dependencies for a Node.js project.
 
@@ -212,9 +213,9 @@ Is a platform and API development tool used to design, test and document APIs. P
 
 # Google Cloud
 
-_services.sh_ is a script file that is responsible for running some Google Cloud services.
+_services.sh_ is a script that execute certain Google Cloud services.
 
-Deploying project into Google Cloud:
+Deploying project to Google Cloud:
 
 First clone the project repository using `git clone https://github.com/Gui-Ferraz/project-name`. Then go to project directory (`cd project-name`) and run `bash services.sh`.
 
@@ -222,4 +223,4 @@ Considering that `.env` file must be included in `.gitignore`, create a new `.en
 
 Now the project is in a new environment, so you must run `npm install`. Finally, run `gcloud run deploy --source . --port=3000`.
 
-The command ouput contains a Service URL refering to your program, now running in the cloud.
+The command ouput contains a Service URL refering to your program. Now it is running in the cloud.
