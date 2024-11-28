@@ -92,3 +92,6 @@ nodejs_alura_backend/
 - **dotenv**: Manages environment variables.
 
 - **CORS**: Enables secure front-end and back-end integration by configuring cross-origin resource sharing.
+
+### Future improvements
+- Implement DELETE functionality.
